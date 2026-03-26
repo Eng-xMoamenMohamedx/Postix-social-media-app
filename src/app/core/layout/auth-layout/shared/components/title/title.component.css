@@ -1,0 +1,49 @@
+.star-title {
+  font-size: 3rem;
+  font-weight: bold;
+  
+  position: relative;
+
+  background: linear-gradient(270deg, #ff6b6b, #6bcBff, #c77dff, #ffd93d);
+  background-size: 600% 600%;
+  
+ background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: gradientMove 8s ease infinite;
+}
+
+/* طبقة النجوم */
+.star-title::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background-image: radial-gradient(white 1px, transparent 1px);
+  background-size: 20px 20px;
+
+  animation: starsMove 10s linear infinite;
+
+  mix-blend-mode: screen;
+  opacity: 0.8;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* حركة الألوان */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* حركة النجوم */
+@keyframes starsMove {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 200px 200px;
+  }
+}
