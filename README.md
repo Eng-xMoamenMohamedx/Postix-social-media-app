@@ -166,7 +166,6 @@ If you enjoy this project, please give it a ⭐ on GitHub!
 ---
 
 ## 🧑‍💻 Author
-##MoamenMohamed
-**Mohamed Moamen**  
+** Moamen Mohamed **  
 
 <p align="center">Made with ❤️ using Angular 20</p>
