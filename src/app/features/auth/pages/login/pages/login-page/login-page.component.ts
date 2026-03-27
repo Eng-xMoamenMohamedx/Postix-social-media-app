@@ -19,7 +19,7 @@ import { IUser } from '../../../../../../core/interfaces/i-user.interface';
     AuthFormTitleComponent,
     FieldErrorsInputComponent,
     AuthMsgErrorComponent,
-    RouterLink
+   
 ],
   templateUrl: './login-page.component.html',
   styleUrl: './login-page.component.css',
