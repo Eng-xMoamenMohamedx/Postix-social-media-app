@@ -1,0 +1,1 @@
+import{R as r,i as e}from"./chunk-OF2SVI6H.js";var o=class t{refreshPosts=new e;triggerRefresh(){this.refreshPosts.next()}static \u0275fac=function(i){return new(i||t)};static \u0275prov=r({token:t,factory:t.\u0275fac,providedIn:"root"})};export{o as a};
